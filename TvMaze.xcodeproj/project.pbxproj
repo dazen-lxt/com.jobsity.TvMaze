@@ -46,7 +46,6 @@
 		078E752A2880CCFB004643D3 /* TvMaze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 078E75282880CCFB004643D3 /* TvMaze.xcdatamodeld */; };
 		078E752C2880CD02004643D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078E752B2880CD02004643D3 /* Assets.xcassets */; };
 		078E752F2880CD02004643D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078E752D2880CD02004643D3 /* LaunchScreen.storyboard */; };
-		078E753A2880CD03004643D3 /* TvMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E75392880CD03004643D3 /* TvMazeTests.swift */; };
 		078E75442880CD03004643D3 /* TvMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E75432880CD03004643D3 /* TvMazeUITests.swift */; };
 		078E75462880CD03004643D3 /* TvMazeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E75452880CD03004643D3 /* TvMazeUITestsLaunchTests.swift */; };
 		078E755B2880D15F004643D3 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E755A2880D15F004643D3 /* MainTabViewController.swift */; };
@@ -147,7 +146,6 @@
 		078E752E2880CD02004643D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		078E75302880CD02004643D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		078E75352880CD03004643D3 /* TvMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		078E75392880CD03004643D3 /* TvMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeTests.swift; sourceTree = "<group>"; };
 		078E753F2880CD03004643D3 /* TvMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078E75432880CD03004643D3 /* TvMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeUITests.swift; sourceTree = "<group>"; };
 		078E75452880CD03004643D3 /* TvMazeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -326,7 +324,6 @@
 			isa = PBXGroup;
 			children = (
 				070F23EC288606CA005DBE9B /* TvShow */,
-				078E75392880CD03004643D3 /* TvMazeTests.swift */,
 			);
 			path = TvMazeTests;
 			sourceTree = "<group>";
@@ -804,7 +801,6 @@
 			files = (
 				070F23F0288608F0005DBE9B /* TvShowPresenterTests.swift in Sources */,
 				070F23EE288606DB005DBE9B /* TvShowMocks.swift in Sources */,
-				078E753A2880CD03004643D3 /* TvMazeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

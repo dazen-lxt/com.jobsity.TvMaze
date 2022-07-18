@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070F23EE288606DB005DBE9B /* TvShowMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F23ED288606DB005DBE9B /* TvShowMocks.swift */; };
+		070F23F0288608F0005DBE9B /* TvShowPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070F23EF288608F0005DBE9B /* TvShowPresenterTests.swift */; };
+		071BBB372883902700CB1397 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB362883902700CB1397 /* PeopleTableViewController.swift */; };
+		071BBB3A2883904100CB1397 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB382883904100CB1397 /* PersonTableViewCell.swift */; };
+		071BBB3B2883904100CB1397 /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071BBB392883904100CB1397 /* PersonTableViewCell.xib */; };
+		071BBB3D2883905000CB1397 /* PeopleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB3C2883905000CB1397 /* PeopleContract.swift */; };
+		071BBB3F2883905A00CB1397 /* PeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB3E2883905A00CB1397 /* PeopleInteractor.swift */; };
+		071BBB412883906400CB1397 /* PeoplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB402883906400CB1397 /* PeoplePresenter.swift */; };
+		071BBB432883916500CB1397 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB422883916500CB1397 /* PersonViewModel.swift */; };
+		071BBB45288391E300CB1397 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB44288391E300CB1397 /* PersonModel.swift */; };
+		071BBB47288391FC00CB1397 /* PersonInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB46288391FC00CB1397 /* PersonInfoModel.swift */; };
+		071BBB492883920E00CB1397 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB482883920E00CB1397 /* CountryModel.swift */; };
+		071BBB4B288392BA00CB1397 /* Endpoint+People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB4A288392BA00CB1397 /* Endpoint+People.swift */; };
+		071BBB5128839CB200CB1397 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB4F28839CB200CB1397 /* PersonDetailViewController.swift */; };
+		071BBB5228839CB200CB1397 /* PersonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071BBB5028839CB200CB1397 /* PersonDetailViewController.xib */; };
+		071BBB5428839CD700CB1397 /* PersonDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB5328839CD700CB1397 /* PersonDetailInteractor.swift */; };
+		071BBB5628839CE000CB1397 /* PersonDetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB5528839CE000CB1397 /* PersonDetailContract.swift */; };
+		071BBB5828839CEA00CB1397 /* PersonDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB5728839CEA00CB1397 /* PersonDetailPresenter.swift */; };
+		071BBB5A28839F4C00CB1397 /* EmbeddedShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB5928839F4C00CB1397 /* EmbeddedShowModel.swift */; };
+		071BBB5C28839F6800CB1397 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB5B28839F6800CB1397 /* CharacterModel.swift */; };
+		071BBB5E28839FBD00CB1397 /* Endpoint+CastCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB5D28839FBD00CB1397 /* Endpoint+CastCredit.swift */; };
+		071BBB612884A18F00CB1397 /* FavoriteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB602884A18F00CB1397 /* FavoriteListTableViewController.swift */; };
+		071BBB632884A19F00CB1397 /* FavoriteListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB622884A19F00CB1397 /* FavoriteListContract.swift */; };
+		071BBB652884A1D800CB1397 /* FavoriteListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB642884A1D800CB1397 /* FavoriteListInteractor.swift */; };
+		071BBB672884A1E100CB1397 /* FavoriteListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071BBB662884A1E100CB1397 /* FavoriteListPresenter.swift */; };
+		0753F5E62883666C00EAF09D /* EpisodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753F5E52883666C00EAF09D /* EpisodeViewModel.swift */; };
+		0753F5EA28836B9000EAF09D /* EpisodeHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753F5E828836B9000EAF09D /* EpisodeHeaderCollectionViewCell.swift */; };
+		0753F5EB28836B9000EAF09D /* EpisodeHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0753F5E928836B9000EAF09D /* EpisodeHeaderCollectionViewCell.xib */; };
+		0753F5EF2883772700EAF09D /* EpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753F5ED2883772700EAF09D /* EpisodeDetailViewController.swift */; };
+		0753F5F02883772700EAF09D /* EpisodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0753F5EE2883772700EAF09D /* EpisodeDetailViewController.xib */; };
+		0753F5F428837B4700EAF09D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753F5F228837B4700EAF09D /* LoginViewController.swift */; };
+		0753F5F528837B4700EAF09D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0753F5F328837B4700EAF09D /* LoginViewController.xib */; };
+		0753F5F72883875F00EAF09D /* BiometricIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753F5F62883875F00EAF09D /* BiometricIDAuth.swift */; };
+		0753F5F9288387D600EAF09D /* UIDevice+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753F5F8288387D600EAF09D /* UIDevice+Utils.swift */; };
+		078E75202880CCFB004643D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E751F2880CCFB004643D3 /* AppDelegate.swift */; };
+		078E75222880CCFB004643D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E75212880CCFB004643D3 /* SceneDelegate.swift */; };
+		078E752A2880CCFB004643D3 /* TvMaze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 078E75282880CCFB004643D3 /* TvMaze.xcdatamodeld */; };
+		078E752C2880CD02004643D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078E752B2880CD02004643D3 /* Assets.xcassets */; };
+		078E752F2880CD02004643D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078E752D2880CD02004643D3 /* LaunchScreen.storyboard */; };
+		078E753A2880CD03004643D3 /* TvMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E75392880CD03004643D3 /* TvMazeTests.swift */; };
+		078E75442880CD03004643D3 /* TvMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E75432880CD03004643D3 /* TvMazeUITests.swift */; };
+		078E75462880CD03004643D3 /* TvMazeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E75452880CD03004643D3 /* TvMazeUITestsLaunchTests.swift */; };
+		078E755B2880D15F004643D3 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E755A2880D15F004643D3 /* MainTabViewController.swift */; };
+		078E755E2880D91E004643D3 /* TvListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E755C2880D91E004643D3 /* TvListTableViewController.swift */; };
+		078E75622880D964004643D3 /* TvShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E75602880D964004643D3 /* TvShowTableViewCell.swift */; };
+		078E75632880D964004643D3 /* TvShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078E75612880D964004643D3 /* TvShowTableViewCell.xib */; };
+		07E4BA1B2881F8B600501C09 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA1A2881F8B600501C09 /* ApiClient.swift */; };
+		07E4BA1E2882067200501C09 /* BaseEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA1D2882067200501C09 /* BaseEndpoint.swift */; };
+		07E4BA2128830FBA00501C09 /* ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA2028830FBA00501C09 /* ApiResult.swift */; };
+		07E4BA232883184400501C09 /* TvShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA222883184400501C09 /* TvShowModel.swift */; };
+		07E4BA25288318B200501C09 /* TvShowInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA24288318B200501C09 /* TvShowInfoModel.swift */; };
+		07E4BA272883191700501C09 /* TvShowImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA262883191700501C09 /* TvShowImageModel.swift */; };
+		07E4BA2928831B0800501C09 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA2828831B0800501C09 /* Endpoint.swift */; };
+		07E4BA2B28831B2500501C09 /* Endpoint+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA2A28831B2500501C09 /* Endpoint+Search.swift */; };
+		07E4BA2D2883202500501C09 /* TvListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA2C2883202500501C09 /* TvListContract.swift */; };
+		07E4BA2F2883203100501C09 /* TvListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA2E2883203100501C09 /* TvListInteractor.swift */; };
+		07E4BA312883203B00501C09 /* TvListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA302883203B00501C09 /* TvListPresenter.swift */; };
+		07E4BA33288320B500501C09 /* TvShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA32288320B500501C09 /* TvShowViewModel.swift */; };
+		07E4BA372883244C00501C09 /* UITableView+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA362883244C00501C09 /* UITableView+ReusableCell.swift */; };
+		07E4BA392883247000501C09 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA382883247000501C09 /* ReusableView.swift */; };
+		07E4BA3B288340C200501C09 /* Endpoint+Shows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA3A288340C200501C09 /* Endpoint+Shows.swift */; };
+		07E4BA3F2883499300501C09 /* TvShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA3D2883499300501C09 /* TvShowViewController.swift */; };
+		07E4BA402883499300501C09 /* TvShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E4BA3E2883499300501C09 /* TvShowViewController.xib */; };
+		07E4BA42288350CB00501C09 /* UILabel+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA41288350CB00501C09 /* UILabel+Html.swift */; };
+		07E4BA44288358EC00501C09 /* TvShowScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA43288358EB00501C09 /* TvShowScheduleModel.swift */; };
+		07E4BA462883594B00501C09 /* TvShowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA452883594B00501C09 /* TvShowInteractor.swift */; };
+		07E4BA482883596000501C09 /* Endpoint+ShowDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA472883596000501C09 /* Endpoint+ShowDetail.swift */; };
+		07E4BA4A2883599C00501C09 /* TvShowContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA492883599C00501C09 /* TvShowContract.swift */; };
+		07E4BA4C28835A3500501C09 /* TvShowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA4B28835A3500501C09 /* TvShowPresenter.swift */; };
+		07E4BA4E28835C6F00501C09 /* StringArray+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA4D28835C6F00501C09 /* StringArray+Util.swift */; };
+		07E4BA50288360DE00501C09 /* Endpoint+Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA4F288360DE00501C09 /* Endpoint+Episodes.swift */; };
+		07E4BA522883613F00501C09 /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA512883613F00501C09 /* EpisodeModel.swift */; };
+		07E4BA552883620D00501C09 /* EpisodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E4BA532883620D00501C09 /* EpisodeCollectionViewCell.swift */; };
+		07E4BA562883620D00501C09 /* EpisodeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E4BA542883620D00501C09 /* EpisodeCollectionViewCell.xib */; };
+		0EA6DA63EF9E0BDFA149FF15 /* Pods_TvMaze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD01202692AEDA1380FAB1B4 /* Pods_TvMaze.framework */; };
+		5BA2B861BA3884C0324991BA /* Pods_TvMaze_TvMazeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CADD764814775E4C1985902 /* Pods_TvMaze_TvMazeUITests.framework */; };
+		CB9F1EDD79B9DF546B8D47FD /* Pods_TvMazeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A7774966E0ECCDB2264815 /* Pods_TvMazeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		078E75362880CD03004643D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078E75142880CCFA004643D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078E751B2880CCFA004643D3;
+			remoteInfo = TvMaze;
+		};
+		078E75402880CD03004643D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078E75142880CCFA004643D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078E751B2880CCFA004643D3;
+			remoteInfo = TvMaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06047BC22C9C3AF2A9CEA99D /* Pods-TvMaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMaze.debug.xcconfig"; path = "Target Support Files/Pods-TvMaze/Pods-TvMaze.debug.xcconfig"; sourceTree = "<group>"; };
+		070F23ED288606DB005DBE9B /* TvShowMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowMocks.swift; sourceTree = "<group>"; };
+		070F23EF288608F0005DBE9B /* TvShowPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowPresenterTests.swift; sourceTree = "<group>"; };
+		071BBB362883902700CB1397 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		071BBB382883904100CB1397 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		071BBB392883904100CB1397 /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
+		071BBB3C2883905000CB1397 /* PeopleContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleContract.swift; sourceTree = "<group>"; };
+		071BBB3E2883905A00CB1397 /* PeopleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleInteractor.swift; sourceTree = "<group>"; };
+		071BBB402883906400CB1397 /* PeoplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplePresenter.swift; sourceTree = "<group>"; };
+		071BBB422883916500CB1397 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		071BBB44288391E300CB1397 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		071BBB46288391FC00CB1397 /* PersonInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoModel.swift; sourceTree = "<group>"; };
+		071BBB482883920E00CB1397 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		071BBB4A288392BA00CB1397 /* Endpoint+People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+People.swift"; sourceTree = "<group>"; };
+		071BBB4F28839CB200CB1397 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
+		071BBB5028839CB200CB1397 /* PersonDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonDetailViewController.xib; sourceTree = "<group>"; };
+		071BBB5328839CD700CB1397 /* PersonDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailInteractor.swift; sourceTree = "<group>"; };
+		071BBB5528839CE000CB1397 /* PersonDetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailContract.swift; sourceTree = "<group>"; };
+		071BBB5728839CEA00CB1397 /* PersonDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailPresenter.swift; sourceTree = "<group>"; };
+		071BBB5928839F4C00CB1397 /* EmbeddedShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedShowModel.swift; sourceTree = "<group>"; };
+		071BBB5B28839F6800CB1397 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		071BBB5D28839FBD00CB1397 /* Endpoint+CastCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+CastCredit.swift"; sourceTree = "<group>"; };
+		071BBB602884A18F00CB1397 /* FavoriteListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListTableViewController.swift; sourceTree = "<group>"; };
+		071BBB622884A19F00CB1397 /* FavoriteListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListContract.swift; sourceTree = "<group>"; };
+		071BBB642884A1D800CB1397 /* FavoriteListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListInteractor.swift; sourceTree = "<group>"; };
+		071BBB662884A1E100CB1397 /* FavoriteListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListPresenter.swift; sourceTree = "<group>"; };
+		0753F5E52883666C00EAF09D /* EpisodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewModel.swift; sourceTree = "<group>"; };
+		0753F5E828836B9000EAF09D /* EpisodeHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		0753F5E928836B9000EAF09D /* EpisodeHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		0753F5ED2883772700EAF09D /* EpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewController.swift; sourceTree = "<group>"; };
+		0753F5EE2883772700EAF09D /* EpisodeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeDetailViewController.xib; sourceTree = "<group>"; };
+		0753F5F228837B4700EAF09D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0753F5F328837B4700EAF09D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0753F5F62883875F00EAF09D /* BiometricIDAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricIDAuth.swift; sourceTree = "<group>"; };
+		0753F5F8288387D600EAF09D /* UIDevice+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Utils.swift"; sourceTree = "<group>"; };
+		078E751C2880CCFB004643D3 /* TvMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078E751F2880CCFB004643D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		078E75212880CCFB004643D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		078E75292880CCFB004643D3 /* TvMaze.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TvMaze.xcdatamodel; sourceTree = "<group>"; };
+		078E752B2880CD02004643D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		078E752E2880CD02004643D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		078E75302880CD02004643D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078E75352880CD03004643D3 /* TvMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078E75392880CD03004643D3 /* TvMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeTests.swift; sourceTree = "<group>"; };
+		078E753F2880CD03004643D3 /* TvMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078E75432880CD03004643D3 /* TvMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeUITests.swift; sourceTree = "<group>"; };
+		078E75452880CD03004643D3 /* TvMazeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		078E755A2880D15F004643D3 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		078E755C2880D91E004643D3 /* TvListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListTableViewController.swift; sourceTree = "<group>"; };
+		078E75602880D964004643D3 /* TvShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowTableViewCell.swift; sourceTree = "<group>"; };
+		078E75612880D964004643D3 /* TvShowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TvShowTableViewCell.xib; sourceTree = "<group>"; };
+		07E4BA1A2881F8B600501C09 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		07E4BA1D2882067200501C09 /* BaseEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEndpoint.swift; sourceTree = "<group>"; };
+		07E4BA2028830FBA00501C09 /* ApiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResult.swift; sourceTree = "<group>"; };
+		07E4BA222883184400501C09 /* TvShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowModel.swift; sourceTree = "<group>"; };
+		07E4BA24288318B200501C09 /* TvShowInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowInfoModel.swift; sourceTree = "<group>"; };
+		07E4BA262883191700501C09 /* TvShowImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowImageModel.swift; sourceTree = "<group>"; };
+		07E4BA2828831B0800501C09 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		07E4BA2A28831B2500501C09 /* Endpoint+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+Search.swift"; sourceTree = "<group>"; };
+		07E4BA2C2883202500501C09 /* TvListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListContract.swift; sourceTree = "<group>"; };
+		07E4BA2E2883203100501C09 /* TvListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListInteractor.swift; sourceTree = "<group>"; };
+		07E4BA302883203B00501C09 /* TvListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListPresenter.swift; sourceTree = "<group>"; };
+		07E4BA32288320B500501C09 /* TvShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowViewModel.swift; sourceTree = "<group>"; };
+		07E4BA362883244C00501C09 /* UITableView+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableCell.swift"; sourceTree = "<group>"; };
+		07E4BA382883247000501C09 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		07E4BA3A288340C200501C09 /* Endpoint+Shows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+Shows.swift"; sourceTree = "<group>"; };
+		07E4BA3D2883499300501C09 /* TvShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowViewController.swift; sourceTree = "<group>"; };
+		07E4BA3E2883499300501C09 /* TvShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TvShowViewController.xib; sourceTree = "<group>"; };
+		07E4BA41288350CB00501C09 /* UILabel+Html.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Html.swift"; sourceTree = "<group>"; };
+		07E4BA43288358EB00501C09 /* TvShowScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowScheduleModel.swift; sourceTree = "<group>"; };
+		07E4BA452883594B00501C09 /* TvShowInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowInteractor.swift; sourceTree = "<group>"; };
+		07E4BA472883596000501C09 /* Endpoint+ShowDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+ShowDetail.swift"; sourceTree = "<group>"; };
+		07E4BA492883599C00501C09 /* TvShowContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowContract.swift; sourceTree = "<group>"; };
+		07E4BA4B28835A3500501C09 /* TvShowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowPresenter.swift; sourceTree = "<group>"; };
+		07E4BA4D28835C6F00501C09 /* StringArray+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringArray+Util.swift"; sourceTree = "<group>"; };
+		07E4BA4F288360DE00501C09 /* Endpoint+Episodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+Episodes.swift"; sourceTree = "<group>"; };
+		07E4BA512883613F00501C09 /* EpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModel.swift; sourceTree = "<group>"; };
+		07E4BA532883620D00501C09 /* EpisodeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCollectionViewCell.swift; sourceTree = "<group>"; };
+		07E4BA542883620D00501C09 /* EpisodeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeCollectionViewCell.xib; sourceTree = "<group>"; };
+		13DA0C9DB2C9258020E04564 /* Pods-TvMaze-TvMazeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMaze-TvMazeUITests.debug.xcconfig"; path = "Target Support Files/Pods-TvMaze-TvMazeUITests/Pods-TvMaze-TvMazeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1936E9082F4035A80CD503E4 /* Pods-TvMaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMaze.release.xcconfig"; path = "Target Support Files/Pods-TvMaze/Pods-TvMaze.release.xcconfig"; sourceTree = "<group>"; };
+		239D40C49DB43D60A345A91A /* Pods-TvMazeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeTests.release.xcconfig"; path = "Target Support Files/Pods-TvMazeTests/Pods-TvMazeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CADD764814775E4C1985902 /* Pods_TvMaze_TvMazeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvMaze_TvMazeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A7774966E0ECCDB2264815 /* Pods_TvMazeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvMazeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8573DEB4C80FF1643FC0D0CC /* Pods-TvMazeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMazeTests.debug.xcconfig"; path = "Target Support Files/Pods-TvMazeTests/Pods-TvMazeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6A50BF3DFED839EF1673B8 /* Pods-TvMaze-TvMazeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMaze-TvMazeUITests.release.xcconfig"; path = "Target Support Files/Pods-TvMaze-TvMazeUITests/Pods-TvMaze-TvMazeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD01202692AEDA1380FAB1B4 /* Pods_TvMaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvMaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078E75192880CCFA004643D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA6DA63EF9E0BDFA149FF15 /* Pods_TvMaze.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078E75322880CD03004643D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9F1EDD79B9DF546B8D47FD /* Pods_TvMazeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078E753C2880CD03004643D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA2B861BA3884C0324991BA /* Pods_TvMaze_TvMazeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070F23EC288606CA005DBE9B /* TvShow */ = {
+			isa = PBXGroup;
+			children = (
+				070F23ED288606DB005DBE9B /* TvShowMocks.swift */,
+				070F23EF288608F0005DBE9B /* TvShowPresenterTests.swift */,
+			);
+			path = TvShow;
+			sourceTree = "<group>";
+		};
+		071BBB3528838FF700CB1397 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				071BBB362883902700CB1397 /* PeopleTableViewController.swift */,
+				071BBB382883904100CB1397 /* PersonTableViewCell.swift */,
+				071BBB392883904100CB1397 /* PersonTableViewCell.xib */,
+				071BBB3C2883905000CB1397 /* PeopleContract.swift */,
+				071BBB3E2883905A00CB1397 /* PeopleInteractor.swift */,
+				071BBB402883906400CB1397 /* PeoplePresenter.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		071BBB4C2883961E00CB1397 /* PersonDetail */ = {
+			isa = PBXGroup;
+			children = (
+				071BBB4F28839CB200CB1397 /* PersonDetailViewController.swift */,
+				071BBB5028839CB200CB1397 /* PersonDetailViewController.xib */,
+				071BBB5328839CD700CB1397 /* PersonDetailInteractor.swift */,
+				071BBB5528839CE000CB1397 /* PersonDetailContract.swift */,
+				071BBB5728839CEA00CB1397 /* PersonDetailPresenter.swift */,
+			);
+			path = PersonDetail;
+			sourceTree = "<group>";
+		};
+		071BBB5F2884A16500CB1397 /* FavoriteList */ = {
+			isa = PBXGroup;
+			children = (
+				071BBB602884A18F00CB1397 /* FavoriteListTableViewController.swift */,
+				071BBB622884A19F00CB1397 /* FavoriteListContract.swift */,
+				071BBB642884A1D800CB1397 /* FavoriteListInteractor.swift */,
+				071BBB662884A1E100CB1397 /* FavoriteListPresenter.swift */,
+			);
+			path = FavoriteList;
+			sourceTree = "<group>";
+		};
+		0753F5EC2883770A00EAF09D /* EpisodeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0753F5ED2883772700EAF09D /* EpisodeDetailViewController.swift */,
+				0753F5EE2883772700EAF09D /* EpisodeDetailViewController.xib */,
+			);
+			path = EpisodeDetail;
+			sourceTree = "<group>";
+		};
+		0753F5F128837B0A00EAF09D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0753F5F228837B4700EAF09D /* LoginViewController.swift */,
+				0753F5F328837B4700EAF09D /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		078E75132880CCFA004643D3 = {
+			isa = PBXGroup;
+			children = (
+				078E751E2880CCFB004643D3 /* TvMaze */,
+				078E75382880CD03004643D3 /* TvMazeTests */,
+				078E75422880CD03004643D3 /* TvMazeUITests */,
+				078E751D2880CCFB004643D3 /* Products */,
+				CDED32AF574D38096743AC6C /* Pods */,
+				64123DA2D7B6A34AC51D80F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		078E751D2880CCFB004643D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078E751C2880CCFB004643D3 /* TvMaze.app */,
+				078E75352880CD03004643D3 /* TvMazeTests.xctest */,
+				078E753F2880CD03004643D3 /* TvMazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078E751E2880CCFB004643D3 /* TvMaze */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA342883240D00501C09 /* Utils */,
+				078E75642881F13E004643D3 /* Data */,
+				078E75522880CD48004643D3 /* Flow */,
+				078E751F2880CCFB004643D3 /* AppDelegate.swift */,
+				078E75212880CCFB004643D3 /* SceneDelegate.swift */,
+				078E752B2880CD02004643D3 /* Assets.xcassets */,
+				078E752D2880CD02004643D3 /* LaunchScreen.storyboard */,
+				078E75302880CD02004643D3 /* Info.plist */,
+				078E75282880CCFB004643D3 /* TvMaze.xcdatamodeld */,
+			);
+			path = TvMaze;
+			sourceTree = "<group>";
+		};
+		078E75382880CD03004643D3 /* TvMazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				070F23EC288606CA005DBE9B /* TvShow */,
+				078E75392880CD03004643D3 /* TvMazeTests.swift */,
+			);
+			path = TvMazeTests;
+			sourceTree = "<group>";
+		};
+		078E75422880CD03004643D3 /* TvMazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				078E75432880CD03004643D3 /* TvMazeUITests.swift */,
+				078E75452880CD03004643D3 /* TvMazeUITestsLaunchTests.swift */,
+			);
+			path = TvMazeUITests;
+			sourceTree = "<group>";
+		};
+		078E75522880CD48004643D3 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				071BBB5F2884A16500CB1397 /* FavoriteList */,
+				071BBB4C2883961E00CB1397 /* PersonDetail */,
+				071BBB3528838FF700CB1397 /* People */,
+				0753F5F128837B0A00EAF09D /* Login */,
+				0753F5EC2883770A00EAF09D /* EpisodeDetail */,
+				07E4BA3C2883496F00501C09 /* TvShow */,
+				078E75532880CD4F004643D3 /* TvList */,
+				078E755A2880D15F004643D3 /* MainTabViewController.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		078E75532880CD4F004643D3 /* TvList */ = {
+			isa = PBXGroup;
+			children = (
+				078E755C2880D91E004643D3 /* TvListTableViewController.swift */,
+				078E75602880D964004643D3 /* TvShowTableViewCell.swift */,
+				078E75612880D964004643D3 /* TvShowTableViewCell.xib */,
+				07E4BA2C2883202500501C09 /* TvListContract.swift */,
+				07E4BA2E2883203100501C09 /* TvListInteractor.swift */,
+				07E4BA302883203B00501C09 /* TvListPresenter.swift */,
+			);
+			path = TvList;
+			sourceTree = "<group>";
+		};
+		078E75642881F13E004643D3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA1F28830FA500501C09 /* ApiResponses */,
+				07E4BA1C2882065B00501C09 /* Endpoints */,
+				078E75672881F153004643D3 /* ViewModels */,
+				078E75652881F147004643D3 /* Models */,
+				07E4BA1A2881F8B600501C09 /* ApiClient.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		078E75652881F147004643D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA222883184400501C09 /* TvShowModel.swift */,
+				07E4BA24288318B200501C09 /* TvShowInfoModel.swift */,
+				07E4BA262883191700501C09 /* TvShowImageModel.swift */,
+				07E4BA43288358EB00501C09 /* TvShowScheduleModel.swift */,
+				07E4BA512883613F00501C09 /* EpisodeModel.swift */,
+				071BBB44288391E300CB1397 /* PersonModel.swift */,
+				071BBB46288391FC00CB1397 /* PersonInfoModel.swift */,
+				071BBB482883920E00CB1397 /* CountryModel.swift */,
+				071BBB5928839F4C00CB1397 /* EmbeddedShowModel.swift */,
+				071BBB5B28839F6800CB1397 /* CharacterModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		078E75672881F153004643D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA32288320B500501C09 /* TvShowViewModel.swift */,
+				0753F5E52883666C00EAF09D /* EpisodeViewModel.swift */,
+				071BBB422883916500CB1397 /* PersonViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		07E4BA1C2882065B00501C09 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA1D2882067200501C09 /* BaseEndpoint.swift */,
+				07E4BA2828831B0800501C09 /* Endpoint.swift */,
+				07E4BA2A28831B2500501C09 /* Endpoint+Search.swift */,
+				07E4BA3A288340C200501C09 /* Endpoint+Shows.swift */,
+				07E4BA472883596000501C09 /* Endpoint+ShowDetail.swift */,
+				07E4BA4F288360DE00501C09 /* Endpoint+Episodes.swift */,
+				071BBB4A288392BA00CB1397 /* Endpoint+People.swift */,
+				071BBB5D28839FBD00CB1397 /* Endpoint+CastCredit.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		07E4BA1F28830FA500501C09 /* ApiResponses */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA2028830FBA00501C09 /* ApiResult.swift */,
+			);
+			path = ApiResponses;
+			sourceTree = "<group>";
+		};
+		07E4BA342883240D00501C09 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA352883241400501C09 /* Extensions */,
+				0753F5F62883875F00EAF09D /* BiometricIDAuth.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		07E4BA352883241400501C09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA362883244C00501C09 /* UITableView+ReusableCell.swift */,
+				07E4BA382883247000501C09 /* ReusableView.swift */,
+				07E4BA41288350CB00501C09 /* UILabel+Html.swift */,
+				07E4BA4D28835C6F00501C09 /* StringArray+Util.swift */,
+				0753F5F8288387D600EAF09D /* UIDevice+Utils.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		07E4BA3C2883496F00501C09 /* TvShow */ = {
+			isa = PBXGroup;
+			children = (
+				07E4BA3D2883499300501C09 /* TvShowViewController.swift */,
+				07E4BA3E2883499300501C09 /* TvShowViewController.xib */,
+				07E4BA452883594B00501C09 /* TvShowInteractor.swift */,
+				07E4BA492883599C00501C09 /* TvShowContract.swift */,
+				07E4BA4B28835A3500501C09 /* TvShowPresenter.swift */,
+				07E4BA532883620D00501C09 /* EpisodeCollectionViewCell.swift */,
+				07E4BA542883620D00501C09 /* EpisodeCollectionViewCell.xib */,
+				0753F5E828836B9000EAF09D /* EpisodeHeaderCollectionViewCell.swift */,
+				0753F5E928836B9000EAF09D /* EpisodeHeaderCollectionViewCell.xib */,
+			);
+			path = TvShow;
+			sourceTree = "<group>";
+		};
+		64123DA2D7B6A34AC51D80F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD01202692AEDA1380FAB1B4 /* Pods_TvMaze.framework */,
+				2CADD764814775E4C1985902 /* Pods_TvMaze_TvMazeUITests.framework */,
+				75A7774966E0ECCDB2264815 /* Pods_TvMazeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDED32AF574D38096743AC6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06047BC22C9C3AF2A9CEA99D /* Pods-TvMaze.debug.xcconfig */,
+				1936E9082F4035A80CD503E4 /* Pods-TvMaze.release.xcconfig */,
+				13DA0C9DB2C9258020E04564 /* Pods-TvMaze-TvMazeUITests.debug.xcconfig */,
+				BE6A50BF3DFED839EF1673B8 /* Pods-TvMaze-TvMazeUITests.release.xcconfig */,
+				8573DEB4C80FF1643FC0D0CC /* Pods-TvMazeTests.debug.xcconfig */,
+				239D40C49DB43D60A345A91A /* Pods-TvMazeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078E751B2880CCFA004643D3 /* TvMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078E75492880CD03004643D3 /* Build configuration list for PBXNativeTarget "TvMaze" */;
+			buildPhases = (
+				4C05556825E5BBA2647F5CB2 /* [CP] Check Pods Manifest.lock */,
+				078E75182880CCFA004643D3 /* Sources */,
+				078E75192880CCFA004643D3 /* Frameworks */,
+				078E751A2880CCFA004643D3 /* Resources */,
+				17610E1147FA8A1723C444E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TvMaze;
+			productName = TvMaze;
+			productReference = 078E751C2880CCFB004643D3 /* TvMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		078E75342880CD03004643D3 /* TvMazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078E754C2880CD03004643D3 /* Build configuration list for PBXNativeTarget "TvMazeTests" */;
+			buildPhases = (
+				3A6DACCFE616AFEC87FA1705 /* [CP] Check Pods Manifest.lock */,
+				078E75312880CD03004643D3 /* Sources */,
+				078E75322880CD03004643D3 /* Frameworks */,
+				078E75332880CD03004643D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078E75372880CD03004643D3 /* PBXTargetDependency */,
+			);
+			name = TvMazeTests;
+			productName = TvMazeTests;
+			productReference = 078E75352880CD03004643D3 /* TvMazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		078E753E2880CD03004643D3 /* TvMazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078E754F2880CD03004643D3 /* Build configuration list for PBXNativeTarget "TvMazeUITests" */;
+			buildPhases = (
+				48601ED4D12E2467399CE41C /* [CP] Check Pods Manifest.lock */,
+				078E753B2880CD03004643D3 /* Sources */,
+				078E753C2880CD03004643D3 /* Frameworks */,
+				078E753D2880CD03004643D3 /* Resources */,
+				0263DBF725FC83F3B98431AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078E75412880CD03004643D3 /* PBXTargetDependency */,
+			);
+			name = TvMazeUITests;
+			productName = TvMazeUITests;
+			productReference = 078E753F2880CD03004643D3 /* TvMazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078E75142880CCFA004643D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					078E751B2880CCFA004643D3 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					078E75342880CD03004643D3 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 078E751B2880CCFA004643D3;
+					};
+					078E753E2880CD03004643D3 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 078E751B2880CCFA004643D3;
+					};
+				};
+			};
+			buildConfigurationList = 078E75172880CCFA004643D3 /* Build configuration list for PBXProject "TvMaze" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078E75132880CCFA004643D3;
+			productRefGroup = 078E751D2880CCFB004643D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078E751B2880CCFA004643D3 /* TvMaze */,
+				078E75342880CD03004643D3 /* TvMazeTests */,
+				078E753E2880CD03004643D3 /* TvMazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078E751A2880CCFA004643D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0753F5F528837B4700EAF09D /* LoginViewController.xib in Resources */,
+				078E752F2880CD02004643D3 /* LaunchScreen.storyboard in Resources */,
+				071BBB3B2883904100CB1397 /* PersonTableViewCell.xib in Resources */,
+				07E4BA562883620D00501C09 /* EpisodeCollectionViewCell.xib in Resources */,
+				071BBB5228839CB200CB1397 /* PersonDetailViewController.xib in Resources */,
+				078E75632880D964004643D3 /* TvShowTableViewCell.xib in Resources */,
+				0753F5EB28836B9000EAF09D /* EpisodeHeaderCollectionViewCell.xib in Resources */,
+				0753F5F02883772700EAF09D /* EpisodeDetailViewController.xib in Resources */,
+				078E752C2880CD02004643D3 /* Assets.xcassets in Resources */,
+				07E4BA402883499300501C09 /* TvShowViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078E75332880CD03004643D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078E753D2880CD03004643D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0263DBF725FC83F3B98431AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TvMaze-TvMazeUITests/Pods-TvMaze-TvMazeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TvMaze-TvMazeUITests/Pods-TvMaze-TvMazeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TvMaze-TvMazeUITests/Pods-TvMaze-TvMazeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17610E1147FA8A1723C444E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TvMaze/Pods-TvMaze-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TvMaze/Pods-TvMaze-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TvMaze/Pods-TvMaze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A6DACCFE616AFEC87FA1705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvMazeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48601ED4D12E2467399CE41C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvMaze-TvMazeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C05556825E5BBA2647F5CB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TvMaze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078E75182880CCFA004643D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0753F5F428837B4700EAF09D /* LoginViewController.swift in Sources */,
+				07E4BA1B2881F8B600501C09 /* ApiClient.swift in Sources */,
+				071BBB5A28839F4C00CB1397 /* EmbeddedShowModel.swift in Sources */,
+				071BBB672884A1E100CB1397 /* FavoriteListPresenter.swift in Sources */,
+				07E4BA1E2882067200501C09 /* BaseEndpoint.swift in Sources */,
+				071BBB432883916500CB1397 /* PersonViewModel.swift in Sources */,
+				071BBB5E28839FBD00CB1397 /* Endpoint+CastCredit.swift in Sources */,
+				071BBB632884A19F00CB1397 /* FavoriteListContract.swift in Sources */,
+				07E4BA2F2883203100501C09 /* TvListInteractor.swift in Sources */,
+				07E4BA25288318B200501C09 /* TvShowInfoModel.swift in Sources */,
+				07E4BA312883203B00501C09 /* TvListPresenter.swift in Sources */,
+				07E4BA2928831B0800501C09 /* Endpoint.swift in Sources */,
+				071BBB492883920E00CB1397 /* CountryModel.swift in Sources */,
+				07E4BA462883594B00501C09 /* TvShowInteractor.swift in Sources */,
+				07E4BA2B28831B2500501C09 /* Endpoint+Search.swift in Sources */,
+				07E4BA44288358EC00501C09 /* TvShowScheduleModel.swift in Sources */,
+				0753F5F72883875F00EAF09D /* BiometricIDAuth.swift in Sources */,
+				078E75622880D964004643D3 /* TvShowTableViewCell.swift in Sources */,
+				071BBB5C28839F6800CB1397 /* CharacterModel.swift in Sources */,
+				07E4BA552883620D00501C09 /* EpisodeCollectionViewCell.swift in Sources */,
+				071BBB3F2883905A00CB1397 /* PeopleInteractor.swift in Sources */,
+				071BBB5628839CE000CB1397 /* PersonDetailContract.swift in Sources */,
+				07E4BA232883184400501C09 /* TvShowModel.swift in Sources */,
+				07E4BA4E28835C6F00501C09 /* StringArray+Util.swift in Sources */,
+				0753F5F9288387D600EAF09D /* UIDevice+Utils.swift in Sources */,
+				071BBB5128839CB200CB1397 /* PersonDetailViewController.swift in Sources */,
+				071BBB5428839CD700CB1397 /* PersonDetailInteractor.swift in Sources */,
+				071BBB372883902700CB1397 /* PeopleTableViewController.swift in Sources */,
+				07E4BA2128830FBA00501C09 /* ApiResult.swift in Sources */,
+				071BBB652884A1D800CB1397 /* FavoriteListInteractor.swift in Sources */,
+				078E755B2880D15F004643D3 /* MainTabViewController.swift in Sources */,
+				07E4BA392883247000501C09 /* ReusableView.swift in Sources */,
+				07E4BA33288320B500501C09 /* TvShowViewModel.swift in Sources */,
+				07E4BA50288360DE00501C09 /* Endpoint+Episodes.swift in Sources */,
+				078E75202880CCFB004643D3 /* AppDelegate.swift in Sources */,
+				07E4BA372883244C00501C09 /* UITableView+ReusableCell.swift in Sources */,
+				07E4BA3F2883499300501C09 /* TvShowViewController.swift in Sources */,
+				07E4BA522883613F00501C09 /* EpisodeModel.swift in Sources */,
+				071BBB612884A18F00CB1397 /* FavoriteListTableViewController.swift in Sources */,
+				071BBB47288391FC00CB1397 /* PersonInfoModel.swift in Sources */,
+				078E755E2880D91E004643D3 /* TvListTableViewController.swift in Sources */,
+				071BBB3D2883905000CB1397 /* PeopleContract.swift in Sources */,
+				07E4BA4C28835A3500501C09 /* TvShowPresenter.swift in Sources */,
+				071BBB5828839CEA00CB1397 /* PersonDetailPresenter.swift in Sources */,
+				071BBB4B288392BA00CB1397 /* Endpoint+People.swift in Sources */,
+				07E4BA42288350CB00501C09 /* UILabel+Html.swift in Sources */,
+				0753F5E62883666C00EAF09D /* EpisodeViewModel.swift in Sources */,
+				07E4BA3B288340C200501C09 /* Endpoint+Shows.swift in Sources */,
+				07E4BA4A2883599C00501C09 /* TvShowContract.swift in Sources */,
+				078E752A2880CCFB004643D3 /* TvMaze.xcdatamodeld in Sources */,
+				07E4BA482883596000501C09 /* Endpoint+ShowDetail.swift in Sources */,
+				0753F5EF2883772700EAF09D /* EpisodeDetailViewController.swift in Sources */,
+				07E4BA2D2883202500501C09 /* TvListContract.swift in Sources */,
+				0753F5EA28836B9000EAF09D /* EpisodeHeaderCollectionViewCell.swift in Sources */,
+				071BBB412883906400CB1397 /* PeoplePresenter.swift in Sources */,
+				07E4BA272883191700501C09 /* TvShowImageModel.swift in Sources */,
+				071BBB45288391E300CB1397 /* PersonModel.swift in Sources */,
+				071BBB3A2883904100CB1397 /* PersonTableViewCell.swift in Sources */,
+				078E75222880CCFB004643D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078E75312880CD03004643D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070F23F0288608F0005DBE9B /* TvShowPresenterTests.swift in Sources */,
+				070F23EE288606DB005DBE9B /* TvShowMocks.swift in Sources */,
+				078E753A2880CD03004643D3 /* TvMazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078E753B2880CD03004643D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078E75442880CD03004643D3 /* TvMazeUITests.swift in Sources */,
+				078E75462880CD03004643D3 /* TvMazeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078E75372880CD03004643D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078E751B2880CCFA004643D3 /* TvMaze */;
+			targetProxy = 078E75362880CD03004643D3 /* PBXContainerItemProxy */;
+		};
+		078E75412880CD03004643D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078E751B2880CCFA004643D3 /* TvMaze */;
+			targetProxy = 078E75402880CD03004643D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		078E752D2880CD02004643D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078E752E2880CD02004643D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078E75472880CD03004643D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		078E75482880CD03004643D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		078E754A2880CD03004643D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06047BC22C9C3AF2A9CEA99D /* Pods-TvMaze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5N5QMWKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TvMaze/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsity.TvMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		078E754B2880CD03004643D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1936E9082F4035A80CD503E4 /* Pods-TvMaze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5N5QMWKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TvMaze/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsity.TvMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		078E754D2880CD03004643D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8573DEB4C80FF1643FC0D0CC /* Pods-TvMazeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5N5QMWKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsity.TvMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvMaze.app/TvMaze";
+			};
+			name = Debug;
+		};
+		078E754E2880CD03004643D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239D40C49DB43D60A345A91A /* Pods-TvMazeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5N5QMWKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsity.TvMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvMaze.app/TvMaze";
+			};
+			name = Release;
+		};
+		078E75502880CD03004643D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DA0C9DB2C9258020E04564 /* Pods-TvMaze-TvMazeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5N5QMWKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsity.TvMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TvMaze;
+			};
+			name = Debug;
+		};
+		078E75512880CD03004643D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6A50BF3DFED839EF1673B8 /* Pods-TvMaze-TvMazeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5N5QMWKZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsity.TvMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TvMaze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078E75172880CCFA004643D3 /* Build configuration list for PBXProject "TvMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078E75472880CD03004643D3 /* Debug */,
+				078E75482880CD03004643D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078E75492880CD03004643D3 /* Build configuration list for PBXNativeTarget "TvMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078E754A2880CD03004643D3 /* Debug */,
+				078E754B2880CD03004643D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078E754C2880CD03004643D3 /* Build configuration list for PBXNativeTarget "TvMazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078E754D2880CD03004643D3 /* Debug */,
+				078E754E2880CD03004643D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078E754F2880CD03004643D3 /* Build configuration list for PBXNativeTarget "TvMazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078E75502880CD03004643D3 /* Debug */,
+				078E75512880CD03004643D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		078E75282880CCFB004643D3 /* TvMaze.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				078E75292880CCFB004643D3 /* TvMaze.xcdatamodel */,
+			);
+			currentVersion = 078E75292880CCFB004643D3 /* TvMaze.xcdatamodel */;
+			path = TvMaze.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 078E75142880CCFA004643D3 /* Project object */;
+}
